@@ -1,0 +1,20 @@
+{
+  "name": "warmer",
+  "version": "1.0.1",
+  "description": "warmer application",
+  "main": "warmer.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "prashanth",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dynamodb-doc": "^1.0.0",
+    "async": "^1.0.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.260.1"
+  }
+}
